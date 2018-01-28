@@ -77,7 +77,7 @@ function logginButtonClicked() {
   var clientIdStr = "client_id=9654fdd7-e52e-4a8d-adcf-554d3f628b5c";
 
   // URI
-  var redirectUrl = mainURI;
+  var redirectUrl = graphURI;
   var redirectUri = redirectUrl; //encodeURIComponent(redirectUrl);
   var redirectUriStr = "&redirect_uri=".concat(redirectUri);
 
