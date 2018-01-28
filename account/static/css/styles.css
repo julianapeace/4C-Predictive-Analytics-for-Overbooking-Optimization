@@ -63,6 +63,11 @@ h3 {font-size:1.5em;line-height:2em;}
 
 p {font-size:14px;line-height:22px;}
 
+.logo{
+  position: absolute;
+  top:0;
+  left:0;
+}
 .container{
   display:flex;
   align-items: center;
@@ -143,6 +148,29 @@ p {font-size:14px;line-height:22px;}
 
 }
 .myButton:active {
+  position:relative;
+}
+
+/*My Button CSS*/
+.fabricButton {
+  background-color:#A44E7D;
+	border:2px solid #A44E7D;
+	color:#ffffff;
+  display:inline-block;
+  cursor:pointer;
+  font-family:'Montserrat',sans-serif;
+	font-weight:700;
+  font-size:15px;
+  padding:10px 15px;
+  text-transform:uppercase;
+
+}
+.fabricButton:hover {
+  background-color:#fff;
+  color: #A44E7D;
+
+}
+.fabricButton:active {
   position:relative;
 }
 

@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 {%block content%}
+{%load static%}
+<div class="logo">
+	<img src="{%static 'img/4c.png'%}" alt="">
+</div>
 
 <div class="form-body">
 <form class="simple" action="/form/" method="post">
