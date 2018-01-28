@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{%block content%}
+<div class="graph-content">
+  <div class="graph">
+    <div class="graph-cost">
+      <iframe height="96" width="480" frameborder="0" src="https://prd-p-jcm43kk47qq8.cloud.splunk.com/en-US/embed?s=%2FservicesNS%2Frarsan%2Fsearch%2Fsaved%2Fsearches%2FOpportunity%2520Missed%2520-%2520YTD&oid=%5E76k3xxHTk%5EJFr8m3VIcL%5EoyKb1z2lz1ZIPK%5EZc2n1bkU0WonNp3151J0XJk4VAygYjDcqjolRr%5ETdYi3TgJf%5EKCePXBsPJsulJdyWnNIGMhaB0%5E9uDNu9HHvMacyUCZH7YtuHCDuJthrzVz3Uj5PA8C%5Eybqyo"></iframe>
+    </div>
+
+
+    <iframe height="400" width="80%" frameborder="0" src="https://prd-p-jcm43kk47qq8.cloud.splunk.com/en-US/embed?s=%2FservicesNS%2Frarsan%2Fsearch%2Fsaved%2Fsearches%2FOccupancy%2520%2526%2520Bookings%2520Report&oid=wSS%5Eh4jtIgH2mGwH7dPDIIkwgqwDuDCGcRVEm1nDwKMw%5EXlQjYmhLkByA9CtRsdoOxAAgbglGIAZz5Rh9KBhRh4bj0r0krYHD2aYRmwZx4w8dHJ87PvwAskc9tQJdvlSFQYK0HcJwv37NBx%5EeVMB1Uwpd2R"></iframe>
+
+
+
+  </div>
+</div>
+<div class="button-container">
+
+<button type="button" name="button" class="btn btn-info">Like</button>
+<button type="button" name="button" class="btn btn-primary" onclick="sendMessageToFabric();">Share</button>
+</div>
+
+{%endblock %}

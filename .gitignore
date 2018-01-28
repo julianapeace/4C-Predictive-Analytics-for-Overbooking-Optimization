@@ -1,0 +1,7 @@
+
+# Added by djzen
+.env
+db.sqlite3
+static-compiled
+# End djzen
+

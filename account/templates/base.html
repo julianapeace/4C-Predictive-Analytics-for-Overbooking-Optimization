@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% load static %}
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav__wrap">
+      <div id="title"></div>
+      <div class="nav__wrap--right">
+        <div class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <!-- <button > -->
+                <svg id="navButton" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                 <defs></defs>
+                     <rect id="sq1" x="0" y="0" width="4" height="4"></rect>
+                     <rect id="sq4" x="0" y="6" width="4" height="4"></rect>
+                     <rect id="sq7" x="0" y="12" width="4" height="4"></rect>
+                     <rect id="sq2" x="6" y="0" width="4" height="4"></rect>
+                     <rect id="sq5" x="6" y="6" width="4" height="4"></rect>
+                     <rect id="sq8" x="6" y="12" width="4" height="4"></rect>
+                     <rect id="sq3" x="12" y="0" width="4" height="4"></rect>
+                     <rect id="sq6" x="12" y="6" width="4" height="4"></rect>
+                     <rect id="sq9" x="12" y="12" width="4" height="4"></rect>
+                   </g>
+                 </svg>
+               <!-- </button> -->
+           <g id="apps-list-icon" fill="#076180">
+           </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://alertme.snapshot.travel">Alert Me</a>
+            <a class="dropdown-item" href="https://platform.snapshot.travel">Analytics</a>
+            <a class="dropdown-item" href="https://fabric.snapshot.travel">Fabric</a>
+            <a class="dropdown-item" href="https://ondemand.snapshot.travel/">On Demand Report</a>
+            <a class="dropdown-item" href="https://configuration.snapshot.travel">Configuration</a>
+            <a class="dropdown-item" href="https://store.snapshot.travel">Store</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-wrapper">
+    {% block content %}{% endblock %}
+  </div>
+
+  </div>
+  </div>
+  <script src="https://cdn.snapshot.technology/navbar/navbar-1.2.0.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="static/js/navbar.js"></script>
+  <script src="{%static 'js/script.js'%}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

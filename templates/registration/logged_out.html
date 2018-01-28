@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+<!--
+
+If you delete this form, process will automatically route you to django's admin site.
+
+-->
+{% block content %}
+<div class="form">
+<p>Logged out!</p>
+<a href="{% url 'login'%}">Click here to login again.</a>
+</div>
+{% load static %}
+<div class="little-monk">
+  <img src="{% static 'img/little-monk/little-monk-29.jpg' %}" alt="Chung Tai Zen Center Little Monk">
+</div>
+{% endblock %}
