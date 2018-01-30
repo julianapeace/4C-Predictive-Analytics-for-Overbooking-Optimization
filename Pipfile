@@ -11,6 +11,7 @@ djzen = "*"
 dj-database-url = "*"
 "psycopg2" = "*"
 requests = "*"
+gunicorn = "*"
 
 
 [dev-packages]
