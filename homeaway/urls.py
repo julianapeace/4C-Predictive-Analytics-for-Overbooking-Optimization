@@ -23,10 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', account.views.index),
     path('accounts/', include('django.contrib.auth.urls')),
-    path('calculator/', account.views.calculator),
     path('form/', csrf_exempt(account.views.form)),
     path('graph/', account.views.graph),
     path('graph2/', account.views.graph2),
-    # path('test/', account.views.test),
-    # path('auth/', account.views.auth),
 ]
