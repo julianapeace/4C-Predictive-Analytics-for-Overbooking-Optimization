@@ -1,10 +1,10 @@
 # 4C - Predictive Analytics for Overbooking Optimization
 [![4C - Predictive Analytics for Overbooking Optimization](https://i.imgur.com/4br6Eb7.png)](https://youtu.be/XAs1HuBv4y4)
 
-### Submission to [Homeaway](https://devpost.com/software/4c-predictive-analytics-for-overbooking-optimization') Homeaway Hackathon project.
+### Submission to [Homeaway](https://devpost.com/software/4c-predictive-analytics-for-overbooking-optimization) Homeaway Hackathon project.
 
-Predictive Overbooking Demo Video: https://youtu.be/XAs1HuBv4y4
-Fabric Demo Video: https://youtu.be/mivPSjEhxz0
+- Predictive Overbooking Demo Video: https://youtu.be/XAs1HuBv4y4
+- Fabric Demo Video: https://youtu.be/mivPSjEhxz0
 
 # Inspiration
 Each year, approximately 1 million guests are relocated due to overbooking. Walking guests costs the hotel industry an estimated $5 billion per year.
