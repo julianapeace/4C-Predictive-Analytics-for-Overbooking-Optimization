@@ -50,3 +50,26 @@ See architecture in gallery above
 - ajax
 - html5
 - css3
+
+# Setup Instructions
+
+These instructions are from a complete fresh install. If your machine already has python3, pip, and pipenv installed, then skip to step 4.
+
+1. Most macOS comes with Python installed. But to make sure that you have Python version 3.6 is installed, open a terminal and run the following command. `python3 --version`. If it returns a version number, then you have python installed. If you do not see a version number, enter `brew install python3`
+2. Install pip with the command `sudo easy_install pip`. Pip is a package management system used to install and manage software packages written in Python.
+3. Since we are using the latest version of Django, you will also need pipenv. Pipenv is a dependency manager and virtual environment tool. Install it with `pip install pipenv`
+4. git clone the repository and cd into it. You should be in the directory /homeaway
+5. In the command line, start a virtual environment with `pipenv shell`. You should see a wall of scrolling code while it is creating a virtual environment for the project in the current directory. While in development, you should always activate the virtual environment with this command. You deactivate with the command `deactivate`.
+6. Install the dependencies with `pipenv install`. This will install the Django framework and all dependency packages in the pipfile. The pipfile and pipfile.lock is very similar to package.json for Javascript or Composer for PHP.
+7. After the installations are complete, you will need to make a migration to apply changes. Use the command `pipenv run ./manage.py migrate`.
+8. Start the app with `pipenv run ./manage.py runserver`.
+9. If you see a `Starting development server at http://127.0.0.1:8000/`, then the server was successfully started and you may see the app at http://localhost:8000.  
+
+
+
+### Using Django
+- The following commands allow you to install/uninstall packages, create a super user account, and access the admin page.
+- *Install packages with:* `pipenv install [package-name]`
+- *Uninstall packages with:* `pipenv uninstall [package-name]`
+- *Create a super user with:* `pipenv run ./manage.py createsuperuser` Enter a username, an email, and a password.
+- *Access the admin page* at http://localhost:8000/admin. Login with your superuser account. This page gives you administrative privileges to manipulate users and permission groups.

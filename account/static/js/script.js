@@ -17,8 +17,8 @@ $("#profile_button").click(function(){
   });
 })
 
-// const mainURI = "http://localhost:8000/";
-const mainURI = "http://4c.julianamei.com/";
+const mainURI = "http://localhost:8000/";
+// const mainURI = "http://4c.julianamei.com/";
 const graphURI = mainURI+"graph";
 
 // viewDidLoad();
