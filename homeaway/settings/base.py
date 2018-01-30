@@ -37,6 +37,7 @@ ALLOWED_HOSTS = [
     'localhost',
     'localhost:8000',
     'julianamei.com',
+    '4c.julianamei.com',
 ]
 
 
