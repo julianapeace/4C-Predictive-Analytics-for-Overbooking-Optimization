@@ -6,8 +6,6 @@ import requests
 
 def index(request):
     return render(request, 'index.html', context={})
-def calculator(request):
-    return render(request, 'calculator.html')
 def form(request):
     if request.method == 'POST':
         labor = request.POST.get("labor", "")
