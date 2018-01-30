@@ -1,1 +1,1 @@
-web: gunicorn djblog.wsgi --log-file -
+web: gunicorn homeaway.wsgi --log-file -
