@@ -51,6 +51,8 @@ See architecture in gallery above
 - html5
 - css3
 
+![Analytics]( ![Mother Malware](https://vignette.wikia.nocookie.net/finalfantasy/images/b/b7/FF3NES-CloudOfDarkness2.gif/revision/latest?cb=20080217171806) ) 
+ 
 # Setup Instructions
 
 These instructions are from a complete fresh install. If your machine already has python3, pip, and pipenv installed, then skip to step 4.
