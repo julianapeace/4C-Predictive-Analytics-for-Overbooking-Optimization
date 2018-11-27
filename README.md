@@ -51,7 +51,7 @@ See architecture in gallery above
 - html5
 - css3
 
-![Analytics]( ![Mother Malware](https://vignette.wikia.nocookie.net/finalfantasy/images/b/b7/FF3NES-CloudOfDarkness2.gif/revision/latest?cb=20080217171806) ) 
+![Analytics](https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif) 
  
 # Setup Instructions
 
