@@ -1,6 +1,8 @@
 # 4C - Predictive Analytics for Overbooking Optimization
 [![4C - Predictive Analytics for Overbooking Optimization](https://i.imgur.com/4br6Eb7.png)](https://youtu.be/XAs1HuBv4y4)
 
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/julianamei)
+
 ### Submission to [Homeaway](https://devpost.com/software/4c-predictive-analytics-for-overbooking-optimization) Homeaway Hackathon project.
 
 - Predictive Overbooking Demo Video: https://youtu.be/XAs1HuBv4y4
